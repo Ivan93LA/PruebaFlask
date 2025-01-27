@@ -3,7 +3,7 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 @app.route('/')
 def root():
-    return "Página principal de prueba"
+    return "Página principal de prueba de Iván León Álvarez"
 
 @app.route("/users/<user_id>")
 def get_user(user_id):
